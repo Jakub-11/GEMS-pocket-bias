@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# site config
+config.local.sh
+
+# generated
+runs/
+logs/
+results/*
+*.pt
+*.pth
+*.ckpt
+*.sif
+*.out
+*.err
+
+# but keep the final tables
+!results/comparison.csv
+!results/comparison.md
+!results/full_metrics.json

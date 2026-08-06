@@ -1,0 +1,10 @@
+# Same environment as GEMS - see https://github.com/camlab-ethz/GEMS for setup.
+# Descriptive, not a lockfile.
+
+torch>=2.0
+torch-geometric>=2.5
+pytorch-lightning>=2.0
+numpy
+scipy            # Pearson/Spearman + CASF power scripts
+scikit-learn     # CASF scoring-power regression; StratifiedKFold in make_splits.py
+pandas           # CASF power scripts
